@@ -86,23 +86,22 @@ img{
 .features{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-content: center;
+    width:100%;
+    height: 477px;
 
 } 
 .features .features2{
         display: flex;
         flex-direction: column;
+        width:780px;
         
     }
-    .features .features3{
-        display: flex;
-        flex-direction: column;
-    }
+    
     .features .desert{
     background-image:url("../image/desert.jpg");
-    width: 60vw;
-    height: 60vw; 
+    width: 100%;
+    height: 100%;
+    background-size: cover; 
     align-items: flex-end;
     background-repeat: no-repeat;
     
@@ -110,33 +109,7 @@ img{
     
 
 }
-
-.features .stream{
-    background-image: url("../image/stream.jpg");
-    height: 30vw;
-    width: 30vw;
-    margin-bottom: -145px; 
-    /* align-items: flex-end; */
-    background-repeat: no-repeat;
-
-    
-
-}
-.features .relax{
-    background-image: url("../image/relax.jpg");
-    height: 30vw;
-    width: 30vw;
-    margin-bottom: 0px;  
-    /* align-items: flex-end; */
-    background-repeat: no-repeat;
-    
-
-
-
-}
-
-
-.features.deserttxt{
+.features .deserttxt{
     color: white;
     font-size: 45px;
     position: absolute;
@@ -144,7 +117,20 @@ img{
     left: 260px;
     border-bottom: orange;
     border-bottom: thick;
-    
+}
+
+.features .features3{
+    display: flex;
+    flex-direction: column;
+    width:35%;
+}
+
+.features .stream{
+    background-image: url("../image/stream.jpg");
+    height: 240px;
+    width: 420px;
+    background-repeat: no-repeat; 
+
 }
 .features .streamtxt{
     position: absolute;
@@ -153,8 +139,14 @@ img{
     color: white;
     font-size: 20px;
 }
+.features .relax{
+    background-image: url("../image/relax.jpg");
+    height: 240px;
+    width: 420px;
+    background-repeat: no-repeat;
+}
 
-.features.relaxtxt{
+.features .relaxtxt{
     position: absolute;
     color: white;
     font-size: 20px;
@@ -169,10 +161,10 @@ img{
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
-    width: 105vw;
+    /* width: 105vw; */
     height: 280px;   
     background-color: #ffffff;
-    padding: 10px;
+    /* padding: 10px; */
              
 }
 .sub-articles {
@@ -185,7 +177,7 @@ img{
 .sub-articles > div {
     justify-content: space-evenly; 
     margin: -1px -25px 0px -35px;
-    padding: 50px;
+    /* padding: 50px; */
 }
 
 .sub-articles img{
