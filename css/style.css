@@ -27,6 +27,7 @@ body{
     padding: 15px;    
 }
 
+
 .img-logo{
     width: 15px;
     margin-right: 55px;
@@ -80,7 +81,86 @@ img{
 }
 
 /* <!-- nav ends here --> */
+
 /* Start Features Section */
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+
+} 
+.features .features2{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .features .features3{
+        display: flex;
+        flex-direction: column;
+    }
+    .features .desert{
+    background-image:url("../image/desert.jpg");
+    width: 60vw;
+    height: 60vw; 
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    
+
+    
+
+}
+
+.features .stream{
+    background-image: url("../image/stream.jpg");
+    height: 30vw;
+    width: 30vw;
+    margin-bottom: -145px; 
+    /* align-items: flex-end; */
+    background-repeat: no-repeat;
+
+    
+
+}
+.features .relax{
+    background-image: url("../image/relax.jpg");
+    height: 30vw;
+    width: 30vw;
+    margin-bottom: 0px;  
+    /* align-items: flex-end; */
+    background-repeat: no-repeat;
+    
+
+
+
+}
+
+
+.features.deserttxt{
+    color: white;
+    font-size: 45px;
+    position: absolute;
+    top: 230px;
+    left: 260px;
+    border-bottom: orange;
+    border-bottom: thick;
+    
+}
+.features .streamtxt{
+    position: absolute;
+    bottom: 310px;
+    left: 830px;
+    color: white;
+    font-size: 20px;
+}
+
+.features.relaxtxt{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 430px;
+    left: 900px;
+}
 
 
 /* End Features Section */
